@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miguel.cookiemaker.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cookie Maker"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/eteNombre"
+
+        />
+
+    <EditText
+        android:id="@+id/eteNombre"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Ingresa tu nombre"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <Button
+        android:id="@+id/butIngresar"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+
+        android:text="Ingresar"
+        />
+
+
+</RelativeLayout>
